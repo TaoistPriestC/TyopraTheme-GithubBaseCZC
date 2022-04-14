@@ -1,10 +1,10 @@
-## TyopraTheme-GithubBaseCZC
+### (1) TyopraTheme-GithubBaseCZC
 这是基于Typora自带的Github主题修改得到的个人制定化主题！
 　　
 
 # 
 
-## 主要修改步骤
+### (2) 主要修改步骤
 
 找到 typora 安装路径：`C:\Users\...\Typora\themes`
 
@@ -30,7 +30,7 @@
 # 
 
 
-## 代码修改细节
+### (3) 代码修改细节
 **实时渲染部分的代码**
 
 ```javascript
