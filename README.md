@@ -94,3 +94,8 @@ if (f(this).indexOf("【警告】") != -1) {
         + f(this) + "</p>";
 }
 ```
+　　
+ 　
+### (4) 老版本Typora下载链接
+> 链接：https://pan.baidu.com/s/1gdQrCpGA1_217tdtzZsAdg 
+> 提取码：845s
