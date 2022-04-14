@@ -1,6 +1,6 @@
 ## TyopraTheme-GithubBaseCZC
 这是基于Typora自带的Github主题修改得到的个人制定化主题！
-　
+---　
 　
 
 ## 主要修改步骤
@@ -32,24 +32,67 @@
 
 **实时渲染部分的代码**
 
+
+**实时渲染部分的代码**
+
 ```javascript
 case o.blockquote:
-if (f(this).indexOf("【警告】") != -1 ) {return "<blockquote " + p(this) + " class='blockquote-jinggao' >" + f(this) + "</blockquote>";} else if (f(this).indexOf("【说明】") != -1 ) {return "<blockquote " + p(this) + " class='blockquote-tuijian' >" + f(this) + "</blockquote>";} else if (f(this).indexOf("【注意】") != -1 ) {return "<blockquote " + p(this) + " class='blockquote-weixian' >" + f(this) + "</blockquote>";} else {return "<blockquote " + p(this) + " >" + f(this) + "</blockquote>";}
+if (f(this).indexOf("【警告】") != -1){
+    return "<blockquote " + p(this) + " class='blockquote-jinggao' >"
+        + f(this) + "</blockquote>";
+} else if (f(this).indexOf("【说明】") != -1) {
+    return "<blockquote " + p(this) + " class='blockquote-tuijian' >"
+        + f(this) + "</blockquote>";
+} else if (f(this).indexOf("【注意】") != -1) {
+    return "<blockquote " + p(this) + " class='blockquote-weixian' >"
+        + f(this) + "</blockquote>";
+} else {
+    return "<blockquote " + p(this) + " >" +
+        f(this) + "</blockquote>";
+}
 ```
 
 **导出文件部分的代码**
 
 ```javascript
 case a.blockquote:
-if (T(e, n).indexOf("【警告】") != -1 ) {return "<blockquote class='blockquote-jinggao'>" + T(e, n) + "</blockquote>";} else if (T(e, n).indexOf("【说明】") != -1 ) {return "<blockquote class='blockquote-tuijian'>" + T(e, n) + "</blockquote>";
-} else if (T(e, n).indexOf("【注意】") != -1 ) {return "<blockquote class='blockquote-weixian'>" + T(e, n) + "</blockquote>";} else {
-return "<blockquote class='test'>" + T(e, n) + "</blockquote>";}
+if (T(e, n).indexOf("【警告】") != -1) {
+    return "<blockquote class='blockquote-jinggao'>"
+        + T(e, n) + "</blockquote>";
+} else if (T(e, n).indexOf("【说明】") != -1) {
+    return "<blockquote class='blockquote-tuijian'>"
+        + T(e, n) + "</blockquote>";
+} else if (T(e, n).indexOf("【注意】") != -1) {
+    return "<blockquote class='blockquote-weixian'>"
+        + T(e, n) + "</blockquote>";
+} else {
+    return "<blockquote class='test'>"
+        + T(e, n) + "</blockquote>";
+}
 ```
 
 **前置图标部分的代码**
 
 ```javascript
 case o.paragraph:
-if (f(this).indexOf("【警告】") != -1 ) {return "<p " + p(this) + " class='md-end-block md-p'>" + "<span data-emoji=\"⚡\" class=\"md-emoji-span\"></span>" + f(this) + "</p>";} else if (f(this).indexOf("【说明】") != -1 ) {return "<p " + p(this) + " class='md-end-block md-p'>" + "<span data-emoji=\"🔎\" class=\"md-emoji-span\"></span>" + f(this) + "</p>";} else if (f(this).indexOf("【注意】") != -1 ) {return "<p " + p(this) + " class='md-end-block md-p'>" + "<span data-emoji=\"👻\" class=\"md-emoji-span\"></span>" + f(this) + "</p>";} else {return "<p " + p(this) + " class='md-end-block md-p'>" + f(this) + "</p>";}
+if (f(this).indexOf("【警告】") != -1) {
+    return "<p " + p(this)
+        + " class='md-end-block md-p'>"
+        + "<span data-emoji=\"⚡\" class=\"md-emoji-span\"></span>"
+        + f(this) + "</p>";
+} else if (f(this).indexOf("【说明】") != -1) {
+    return "<p "
+        + p(this) + " class='md-end-block md-p'>"
+        + "<span data-emoji=\"🔎\" class=\"md-emoji-span\"></span>"
+        + f(this) + "</p>";
+} else if (f(this).indexOf("【注意】") != -1) {
+    return "<p "
+        + p(this) + " class='md-end-block md-p'>"
+        + "<span data-emoji=\"👻\" class=\"md-emoji-span\"></span>"
+        + f(this) + "</p>";
+} else {
+    return "<p "
+        + p(this) + " class='md-end-block md-p'>"
+        + f(this) + "</p>";
+}
 ```
-
