@@ -1,7 +1,8 @@
 ## TyopraTheme-GithubBaseCZC
 这是基于Typora自带的Github主题修改得到的个人制定化主题！
 　　
-　　
+
+# 
 
 ## 主要修改步骤
 
@@ -26,14 +27,10 @@
 使用当前`frame.js`文件替换给定的`frame.js`文件
 　　
 　　
-
+# 
 
 
 ## 代码修改细节
-
-**实时渲染部分的代码**
-
-
 **实时渲染部分的代码**
 
 ```javascript
