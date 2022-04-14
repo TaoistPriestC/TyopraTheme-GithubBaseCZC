@@ -22,7 +22,7 @@
 
 返回`C:\Program Files\Typora\resources\appsrc\window` 目录，
 
-<img src="images/image-20220415014351304.png" alt="image-20220415014351304" style="zoom:70%;" />
+<img src="images/image-20220415014351304.png" alt="image-20220415014351304" style="zoom:68%;" />
 
 使用当前`frame.js`文件替换给定的`frame.js`文件
 
