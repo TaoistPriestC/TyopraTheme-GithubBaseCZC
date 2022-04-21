@@ -14,13 +14,13 @@
 
 为了方便恢复，我们新建一个`frame backup`文件夹用于备份，
 
-复制当前`frame.js`文件放入备份，为了方便软件配合`everthing`搜索，
+复制原本的`frame.js`文件放入备份，为了方便软件配合`everthing`搜索，
 
 进入`frame backup`文件夹，新建空文本，取名 `Typora Frame Marker.txt` ，
 
 返回`C:\Program Files\Typora\resources\appsrc\window` 目录，
 
-使用当前`frame.js`文件替换给定的`frame.js`文件
+使用当前项目给定的`frame.js`文件替换项目原本的`frame.js`文件
 
 
 
